@@ -21,10 +21,11 @@ var(
 )
 
 func main() {
-	fmt.Printf("integer number %v, type %T\n",integer,integer);
-	fmt.Printf("Floating number %v, type %T\n",floatingNumber,floatingNumber);
-	fmt.Printf("Bool number %v, type %T\n",flag,flag);
-	fmt.Printf("Complex number %v, type %T\n",complexNumber1,complexNumber1);
+	fmt.Printf("integer number %v, type %T\n",integer,integer)
+	fmt.Printf("Floating number %v, type %T\n",floatingNumber,floatingNumber)
+	fmt.Printf("Bool number %v, type %T\n",flag,flag)
+	fmt.Printf("String name %v, type %T\n",name,name)
+	fmt.Printf("Complex number %v, type %T\n",complexNumber1,complexNumber1)
 	fmt.Printf("Complex number real %v, type %T\n",real(complexNumber2),real(complexNumber2))
 	fmt.Printf("Complex number imaginary %v, type %T\n",imag(complexNumber2),imag(complexNumber2))
 }
